@@ -299,7 +299,7 @@ li a:hover::before{
 
 section{
   min-height: 100dvh;
-  padding: 8rem 12%;
+  padding: 8rem 10%;
   width: 100%;
   position: relative;
 }
@@ -371,12 +371,6 @@ section{
   transform: scale(1.1)
 }
 
-.section-title{
-  text-align: center;
-  font-size: 4rem;
-  font-weight: 600;
-  margin-bottom: 3rem;
-}
 
 .experience-info{
   display: flex;
@@ -509,6 +503,13 @@ footer ul li a{
   font-weight: 600;
 }
 
+.section-title{
+  text-align: center;
+  font-size: 4rem;
+  font-weight: 600;
+  margin-bottom: 3rem;
+}
+
 @media(max-width: 1280px){
   header{
     padding: 1rem 2rem;
@@ -523,9 +524,22 @@ footer ul li a{
     flex-direction: column;
   }
 
+
+
+.btn-group{
+  display: flex;
+  gap: 1rem;
+}
+
 }
 
 @media(max-width: 768px){
+
+  .btn-group{
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
   header{
     gap: 1rem;
     padding: 1rem 1rem;
@@ -550,9 +564,17 @@ footer ul li a{
   .experience-info img{
     width: 70vw
   }
+
+ 
 }
 
 @media(max-width: 600px){
+
+  .btn-group{
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
   header .menu{
     display: block;
   }
@@ -582,7 +604,7 @@ footer ul li a{
   }
 
   header{
-    padding: 1rem 5rem;
+    padding: 1rem 2rem;
     gap: 8rem;
   }
 
@@ -597,6 +619,13 @@ footer ul li a{
   footer ul{
     gap: 1rem;
   }
+
+  .section-title{
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 600;
+  margin-bottom: 3rem;
+}
 }
 
 </style>
