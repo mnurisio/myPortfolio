@@ -1,17 +1,13 @@
 
 <script setup>
 import { ref, onMounted } from 'vue';
-import profilePic from '../assets/img/profilePic.png'
+import profilePic from '../assets/img/profilePic.jpg'
 
 const navLinks = ref(null);
 
 onMounted(() => {
   navLinks.value = document.querySelector('.nav-links');
 });
-
-function goToLink(url){
-  window.location.href = url
-}
 
 function toggleMenu() {
   if (navLinks.value) {
@@ -127,7 +123,7 @@ function scrollToSection(id){
           <h6 class="mt-3">Boise CodeWorks:  Certified Fullstack Software Developer</h6>
         </div>
       </div>
-      <img :src="profilePic" alt="">
+      <!-- <img :src="profilePic" alt=""> -->
     </div>
   </section>
 
@@ -319,9 +315,11 @@ section{
 
 .about img{
   object-fit: cover;
-  object-position: center;
-  width: 30vw;
-  border-radius: 50%;
+  object-position:center;
+  height: 45dvh;
+  width: 20dvw;
+  aspect-ratio: 1/1;
+  border-radius: 50%
 }
 
 .info-box{
