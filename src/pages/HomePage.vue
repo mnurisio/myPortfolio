@@ -138,8 +138,8 @@ function scrollToSection(id){
         <h3>Keepr</h3>
         <p>Keepr is a fun and easy-to-use app that helps you organize and store your favorite photos. You can create personalized collections, called "Vaults," and add your pictures, or "Keeps," to them. Whether it's for memories, inspiration, or any other collection, Keepr makes it simple to organize your images and keep them all in one place. With an intuitive design, managing your photo collection has never been easier.</p>
         <div class="btn-group">
-          <div class="btn-project"><a href="https://hello.mnkeepr.com/#/">Live Demo</a></div>
-          <div class="btn-project"><a href="https://github.com/mnurisio/Keepr">Github Repo</a></div>
+          <a class="btn-project" href="https://hello.mnkeepr.com/#/"><div>Live Demo</div></a>
+          <a href="https://github.com/mnurisio/Keepr"><div class="btn-project">Github Repo</div></a>
         </div>
       </div>
 
@@ -148,8 +148,12 @@ function scrollToSection(id){
         <h3>Tower</h3>
         <p>Tower is a ticketing app that makes discovering and attending social events easy. Users can explore a wide range of events, purchase tickets, and secure their spot with just a few taps. Whether you're looking to attend concerts, parties, or festivals, Tower connects you with the events that match your interests. You can also create and promote your own events, making it a complete platform for event-goers and organizers alike.</p>
         <div class="btn-group">
-          <div class="btn-project"><a href="https://tower.mnkeepr.com/#/">Live Demo</a></div>
-          <div class="btn-project"><a href="https://github.com/mnurisio/Tower">Github Repo</a></div>
+          <a class="btn-project" href="https://tower.mnkeepr.com/#/"><div>Live Demo</div></a>
+          <a href="https://github.com/mnurisio/Tower">
+          <div class="btn-project">
+              Github Repo
+            </div>
+          </a>
         </div>
       </div>
 
@@ -157,8 +161,12 @@ function scrollToSection(id){
         <h3>Allspice</h3>
         <p>Allspice is an app that brings your culinary creativity to life. It allows users to create, store, and share recipes with a global community. With an easy-to-use interface, you can add all the details of your recipes, from ingredients to photos, and inspire others to try new dishes. Whether you're sharing family favorites or unique creations, Allspice makes it simple to connect with fellow food lovers and share your passion for cooking.</p>
         <div class="btn-group">
-          <div class="btn-project">Live Demo</div>
-          <div class="btn-project"><a href="https://github.com/mnurisio/Allspice">Github Repo</a></div>
+          <a class="btn-project" href="https://allspice.mnkeepr.com/#/"><div>Live Demo</div></a>
+          <a href="https://github.com/mnurisio/Allspice">
+          <div class="btn-project">
+              Github Repo
+            </div>
+          </a>
         </div>
       </div>
 
@@ -208,6 +216,7 @@ function scrollToSection(id){
   font-weight: 500;
   text-wrap: nowrap;
   transition: 0.2s ease-in-out;
+  color: black;
 }
 
 .btn-project a{
