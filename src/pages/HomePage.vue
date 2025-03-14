@@ -155,7 +155,7 @@ function scrollToSection(id){
         <h3>Tower</h3>
         <p>Tower is a ticketing app that makes discovering and attending social events easy. Users can explore a wide range of events, purchase tickets, and secure their spot with just a few taps. Whether you're looking to attend concerts, parties, or festivals, Tower connects you with the events that match your interests. You can also create and promote your own events, making it a complete platform for event-goers and organizers alike.</p>
         <div class="btn-group">
-          <div class="btn-project">Live Demo</div>
+          <div class="btn-project"><a href="https://tower.mnkeepr.com/#/">Live Demo</a></div>
           <div class="btn-project"><a href="https://github.com/mnurisio/Tower">Github Repo</a></div>
         </div>
       </div>
