@@ -71,7 +71,7 @@ function scrollToSection(id){
         <div class="grid-card">
           
           <span>Boise CodeWorks</span>
-          <h3>Software Developer Intern</h3>
+          <h3>Software Developer</h3>
           <p>Went through 500+ of development training where I coded many applications using various backend and frontend technologies.</p>
         </div>
         <div class="grid-card">
@@ -123,7 +123,6 @@ function scrollToSection(id){
           <h6 class="mt-3">Boise CodeWorks:  Certified Fullstack Software Developer</h6>
         </div>
       </div>
-      <!-- <img :src="profilePic" alt=""> -->
     </div>
   </section>
 
